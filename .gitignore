@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data (download yourself from CWRU; not redistributed)
+CWRU/
+*.mat
+
+# Checkpoints & logs
+checkpoint/
+*.pth
+*.log
+*.csv
+tsne_*/
+final_vis/
+
+# IDE
+.vscode/
+.idea/
