@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ## 4. 数据准备
 
-CWRU 数据集需自行下载（受版权限制不入库）：
+CWRU 数据集需自行下载：
 
 1. 官方地址：<https://engineering.case.edu/bearingdatacenter/download-data-file>
 2. 按下列目录结构放到项目根目录（`.mat` 文件名需与官方一致）：
@@ -146,7 +146,7 @@ python run_chapter4_unified.py --exp visual        # 混淆矩阵 + t-SNE
 
 ---
 
-## 7. 复现结果（CWRU，20% 源样本，200 epoch，3 次均值）
+## 7. 实验结果（CWRU，20% 源样本，200 epoch，3 次均值）
 
 ### 7.1 跨工况全矩阵（12 组任务，总平均）
 
